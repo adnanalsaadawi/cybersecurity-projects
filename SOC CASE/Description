@@ -1,0 +1,111 @@
+# SOC Case Study — Splunk Multi-Platform Log Analysis
+
+This project demonstrates practical SOC analysis using Splunk to monitor, analyze, and visualize security logs from multiple platforms including Apache Web Server, MacOS, Linux, Health App, and OpenSSH server environments.
+
+---
+
+## 🎯 Project Objectives
+- Centralize log data from diverse systems
+- Detect anomalies, brute-force attacks, and unauthorized activities
+- Build dashboards for real-time monitoring
+- Compare Splunk with alternative SIEM/log analysis tools
+- Provide mitigation recommendations to improve security posture
+
+---
+
+## 🛠 Tools & Technologies
+| Tool / Feature | Purpose |
+|---------------|---------|
+| **Splunk Enterprise** | Log ingestion & security dashboarding |
+| **SPL (Search Processing Language)** | Querying and analysis |
+| **Splunk Security Essentials** | Threat content packs & detections |
+| **Cyber Security Essentials App** | Visual threat monitoring dashboards |
+| **Windows 11 System Monitoring** | Host security visualization |
+
+---
+
+## 🔍 Log Sources Analyzed
+| Log Source | Key Use Case |
+|-----------|--------------|
+| **Apache Web Server** | Traffic monitoring & threat geolocation |
+| **MacOS System Logs** | Hardware/USB activity, Wi-Fi abuse |
+| **Linux Logs** | Service failures, suspicious network connections |
+| **Health App Logs** | Data integrity & unusual behavior detection |
+| **OpenSSH Server Logs** | SSH brute-force attack identification |
+
+---
+
+## 📊 Visual Dashboards Created
+✔ Geo-maps of attacker origin  
+✔ Time-series for peak traffic or login attempts  
+✔ Service monitoring and stability issues  
+✔ USB device behavior patterns  
+✔ Authentication logging trends  
+
+> All dashboards and figures are included in `splunk-analysis-report.pdf`
+
+---
+
+## 🔥 “Wow Factor”
+Advanced Splunk apps were installed and configured to simulate professional SOC workflows:
+
+- **Splunk Security Essentials**
+  - Automated phishing indicators
+  - Threat investigation playbooks
+  - Account compromise analytics
+
+- **Cyber Security Essentials App**
+  - Live threat dashboards
+  - APT groups, malware categories, triggered alerts
+
+- **Windows 11 Host Monitoring**
+  - Restart/shutdown tracking
+  - Stability and compromise detection
+
+---
+
+## 🧩 Key Findings
+- Multiple SSH brute-force attempts detected and mapped by region
+- Suspicious late-night health app logs indicating automation misuse
+- High-volume Apache traffic suggesting scanning activity
+- System wake events and USB behavior on Mac indicating possible reconnaissance
+
+---
+
+## 🛡️ Security Recommendations
+| Improvement | Benefit |
+|------------|---------|
+| MFA & stricter authentication | Reduce credential compromise |
+| USB device restrictions | Prevent data exfiltration |
+| Alerting on geo-based SSH anomalies | Faster threat response |
+| Firmware + OS updates | Improve endpoint resilience |
+| Log retention & centralization | Better forensic readiness |
+
+---
+
+## 📂 Project Files
+| File | Description |
+|------|-------------|
+| `splunk-analysis-report.pdf` | Full case study, dashboards, visualizations, references |
+| `splunk-presentation.pptx` | Slide deck summarizing threats & SOC response |
+
+---
+
+## ⭐ Skills Demonstrated
+- SIEM Configuration & Dashboarding
+- SPL Query Development
+- Threat Detection & Incident Analysis
+- MITRE-aligned Alerting Concepts
+- Technical Reporting & Presentation
+
+---
+
+## 🔗 Demo Video
+A short recorded demonstration showcasing dashboards and workflow is included in the Appendix of the report.
+
+> Secure SharePoint link available for verification upon request.
+
+---
+
+📌 *This project simulates real SOC analyst responsibilities, from log ingestion to threat investigation and reporting — ideal for entry-level cybersecurity roles.*
+
