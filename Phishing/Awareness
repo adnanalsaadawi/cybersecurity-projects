@@ -1,1 +1,50 @@
+Phishing Awareness Simulation – SOC Behavioural Study
+GoPhish • Mailgun • HTML/CSS • DigitalOcean • Survey Analysis
 
+This project involved designing and deploying a phishing simulation targeting university students to measure their susceptibility to realistic phishing attacks and improve cybersecurity awareness.
+
+📌 Key Responsibilities
+
+Built a convincing phishing email and landing page using HTML/CSS
+
+Used GoPhish for campaign management and Mailgun for secure delivery
+
+Configured SPF, DKIM, and DMARC for improved email authenticity
+
+Ensured ethical control: no real credentials stored, full anonymity
+
+Conducted pre- and post-awareness surveys to measure impact
+
+📊 Results
+
+-50 emails sent
+
+-66% opened
+
+-22% clicked the link
+
+-16% entered data
+
+-0% reported the phishing email
+
+🎯 Outcome
+
+Campaign revealed strong click susceptibility
+
+Reporting awareness was very low
+
+Post-simulation responses showed 96% improvement in awareness
+
+Hands-on simulation proved more effective than passive awareness methods
+
+🔒 Skills Demonstrated
+
+Social engineering analysis
+
+Phishing campaign execution
+
+Email authentication techniques
+
+Data collection & behavioural analytics
+
+Ethical cybersecurity practices
