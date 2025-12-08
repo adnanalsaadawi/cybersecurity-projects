@@ -1,0 +1,54 @@
+# Network Design & Core Services Configuration
+
+This project demonstrates the design and configuration of a small business network, including subnetting, DHCP, DNS, and email server functionality. The network was planned and implemented using Cisco Packet Tracer.
+
+---
+
+## 🎯 Objective
+- Design a functional network for 3 subnets
+- Configure core network services for host communication
+- Verify secure and reliable end-to-end connectivity
+
+---
+
+## 🧩 Subnet Design
+An IPv4 address block was subnetted to support 3 networks, with correct:
+- Network addresses
+- Host ranges
+- Broadcast addresses
+- Subnet mask (/27)
+
+Subnet planning table included in the full report.
+
+---
+
+## ⚙️ Configured Network Services
+| Service | Function |
+|--------|----------|
+| DHCP | Automated IP assignment for clients |
+| DNS | Resolving hostnames to IP addresses |
+| SMTP / POP3 Email | End-to-end communication between hosts |
+| Static Routing | Multi-subnet communication |
+
+---
+
+## 🔍 Connectivity Verification
+- Ping tests between hosts successful
+- Email exchanged successfully through configured server
+- Router successfully routed traffic between subnets
+
+---
+
+## 📂 Project Files
+| File | Description |
+|------|-------------|
+| `network-design-report.pdf` | Full network analysis, subnet tables, PDU info, and configuration snapshots |
+
+---
+
+## ⭐ Skills Demonstrated
+- IPv4 Subnetting & VLSM
+- DHCP & DNS Configuration
+- Routing Fundamentals
+- Network Troubleshooting
+- Documentation & Diagramming
